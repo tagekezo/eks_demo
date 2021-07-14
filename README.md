@@ -33,6 +33,7 @@ kubectl get nodes -o wide
 ```
 
 #### Install helm chart
+Templates are referenced from https://kubernetes.io/docs/tutorials/stateless-application/guestbook/
 ```
 helm install gbchart gbchart
 ```
